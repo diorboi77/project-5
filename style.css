@@ -1,0 +1,63 @@
+img{
+    width: 50px;
+}
+p i{
+    color: red;
+}
+p > i{
+    background-color: #665fd5;
+}
+span + b{
+    color: red;
+}
+b ~ span{
+    color: rgb(5, 250, 5);
+}
+[href="./index.html"]{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:not(:first-child){
+    text-decoration: none;
+    background-color: aqua;
+    margin: 0px 10px;
+    padding: 5px 10px;
+}
+a:visited{
+    color: rgb(2, 4, 0);
+}
+span:first-child{
+    background-color: yellow;
+}
+p::first-letter{
+    color: black;
+    text-transform: lowercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li:nth-child(odd):not(:last-child){
+    color: red;
+}
+li:nth-child(even){
+    color: blue;
+}
+li:hover::after{
+    content: "<=";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+.block{
+    width: 200px;
+    height: 200px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjwmALuU19xPRQx_5_ZQK8QqG5HpA79AD5Iw&usqp=CAU);
+    background-size: cover;
+}
